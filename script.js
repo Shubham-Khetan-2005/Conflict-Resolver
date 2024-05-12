@@ -1,3 +1,5 @@
+window.onload = Roll();
+
 var numberOne = 6; 
 var numberTwo = 6; 
 var numberThree = 6; 
@@ -26,6 +28,10 @@ function generateRandom()
 
 function Roll()
 {
+    var audio = new Audio("./Audio/dice-roll-1.mp3");
+    audio.play();
+
+    setTimeout(() => {generateRandom();}, 1000);
     generateRandom();
     if((numberOne == 0))
         numberOne = 6;
