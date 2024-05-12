@@ -27,7 +27,18 @@ h2 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 3rem;
-  color: #4ECCA3;
+}
+
+#refresh{
+  background-color: #4ECCA3; /* Green */
+  border: none;
+  color: #001c5a;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  display: inline-block;
+  font-size: 3rem;
+  border-radius: 10%;
 }
 
 .winner{

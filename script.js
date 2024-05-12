@@ -1,6 +1,14 @@
 var numberOne = 6; 
 var numberTwo = 6; 
 var numberThree = 6; 
+const refreshButton = document.getElementById("refresh");
+
+refreshButton.addEventListener("click",handleClick);
+
+function handleClick(){
+    window.location.reload();
+    Roll();
+}
 
 function generateRandom()
 {
